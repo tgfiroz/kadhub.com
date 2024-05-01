@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.image_warp img{
+    height: 70px;
+    /* background-color: transparent;  */
+    mix-blend-mode: multiply; 
+}
+.unorderlist_warp li{
+    padding: 0px 20px;
+}
+.btn_warp button{
+    /* height: 20px; */
+    padding: 8px 20px;
+
+}
+.unorderlist_warp li a{
+    color: #000;
+    font-size: 18px;
+}
+.unorderlist_warp .dropdown-menu{
+    background-color: rgb(44 41 107);
+}
+.unorderlist_warp .dropdown-menu a{
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+.unorderlist_warp .dropdown-menu a:hover{
+    color: red;
+}
+.unorderlist_warp .nav-link:hover{
+   color: rgb(44 41 107);
+}
+/* .change_text::after{
+    content: '';
+    animation: changetext 8s infinite linear;
+    color:  rgb(7 99 76);
+}
+@keyframes changetext{
+    0%{content:'Degital MArketing';}
+    25%{content:'Web Desigining';}
+    75%{content:'SEO';}
+    100%{content:'Google ADs';}
+
+} */
+.carousel_warp_img img{
+    height: 400px;
+    border-radius: 10px;
+}
+.footer_warp{
+    background-color: #231f20;
+    color: white;
+}
+.footer_border_top{
+    font-size: 13px;
+    text-align: center;
+    padding: 8px 15px;
+    background-color:#231f20 ;
+    /* margin-top: -20px; */
+}
+.footer_warp .ftr_a_wrp a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+    line-height: 25px;
+}
+.footer_warp .ftr_a_wrp a:hover{
+    color: #EF4036;
+}
+.footer_font_icon_warp a{
+    padding: 6px 10px;
+    /* font-size: 30px; */
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+.footer_font_icon_warp a:hover{
+    color:#231f20 ;
+    background-color: #fff;
+    border-radius: 10px;
+    
+}
+.lst_ftr_wrp span{
+    text-decoration: none;
+    font-size: 20px;
+    /* padding: 25px; */
+}
+.body_col_warp h3{
+    font-size: 40px;
+    /* opacity: ; */
+    font-weight: 444;
+    font-family: 'Times New Roman', Times, serif;
+}
+.body_col_warp p{
+    font-size: 24px;
+}
+.body_carousel_warp img{
+    height: 400px;
+    width: 100%;
+}
+.image_warp h3{
+    color: rgb(126 34 206);
+    border: 2px solid rgb(126 34 206);
+    padding: 4px 14px;
+    transition: 0.3s ease-in-out;
+}
+.image_warp h3:hover{
+    background-color: rgb(126 34 206);
+    color: #fff;
+
+}
+.btn_warp{
+    background-color: transparent;
+    border: 1px solid rgb(126 34 206);
+    color: rgb(126 34 206);
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    
+    text-decoration: none;
+}
+.btn_warp:hover{
+    background-color: rgb(126 34 206);
+    color: #fff;
+    /* padding: 5px 14px; */
+}
+.body_col_warp img{
+    height: 80px;
+}
+.body_warp_too h1{
+    text-align: center;
+    /* color: rgb(126 34 206); */
+    /* font-family: 'Montserrat'; */
+    /* font-size: 35px; */
+    font-weight: 444;
+}
+.body_warp_too img{
+    cursor: pointer;
+    /* height: 100px; */
+}
+.part_tw_warp h1{
+    font-weight: 444;
+}
+/* .part_tw_warp h1{
+    font-weight: 444;
+} */
+.part_trd_warp li{
+    margin: 10px 0px;
+}
+.part_trd_warp li a{
+    font-size: 18px;
+}
+.part_trd_warp p{
+    font-size: 18px;
+}
+.modal_form_warp label{
+    font-size: 20px;
+    /* font-weight: 555; */
+    margin-bottom: -1px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 2px;
+    font-weight: 555;
+    opacity: 0.8;
+    letter-spacing: 1px;
+}
+.input_button_warp input{
+    padding: 8px 22px;
+    color: rgb(126 34 206);
+    background-color: #fff;
+    border: 1px solid rgb(126 34 206);
+    font-weight: 555;
+}
+.input_button_warp input:hover{
+    background-color: rgb(126 34 206);
+    color:#fff;
+}
+.edit_dropdown button{
+    width: 100%;
+    font-weight: 555;
+    font-size: 20px;
+}
+.edit_dropdown .dropdown-menu{
+    width: 100%;
+    border: 1px solid #fff;
+    background-color: rgb(44 41 107);
+}
+.edit_dropdown .dropdown-menu a{
+    padding: 10px;
+    color: #fff;
+    font-size: 18px;
+}
+/* #231f20 */
+
+
+
+
+/* medai quarey start  */
+@media only screen and (max-width: 400px){
+    .body_col_warp h3{
+        font-size: 28px;
+    }
+    .body_carousel_warp img{
+        height: 300px;
+        width: 100%;
+    }
+    .body_warp_too h1{
+        font-size: 30px;
+    }
+    .body_warp_too img{
+        height: 80px;
+        padding: 0px;
+        margin: 0px;
+    }
+    .part_tw_warp h1{
+        /* font-weight: 444; */
+        font-size: 35px;
+    }
+    .part_trd_warp li{
+        margin: 6px 0px;
+    }
+    .footer_h1_warp h1{
+        font-size: 28px;
+    }
+    .mobile_use_warp img{
+        height: 150px;
+        /* width: 150px; */
+    }
+    .modal_header_Warp h4{
+        font-size: 20px;
+    }
+    .modal_header_Warp span{
+        position: relative;
+        top: -4px;
+    }
+    .image_warp h3{
+        color: rgb(126 34 206);
+        border: none;
+        padding: 4px 14px;
+        transition: 0.3s ease-in-out;
+    }
+    /* .part_trd_warp ul{
+        border: 1px solid #ccc;*/
+        /* margin-top: -10px; */
+    /* }  */
+    .part_trd_warp ul li{
+        border: 1px solid #ccc;
+        /* margin-top: -10px; */
+    }
+}
+.second_nav_warp img{
+    height: 80px;
+    width: 100%;
+}
+.form_info_warp .fa-solid{
+    font-size: 30px;
+    color: #dc3545;
+    padding: 8px 8px;
+    border-radius: 50%;
+    border: 1px solid red;
+    margin: 10px;
+}
